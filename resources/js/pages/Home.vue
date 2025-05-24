@@ -18,8 +18,8 @@
             <div class="flex items-center space-x-6">
                 <a href="home.php" class="text-sm font-medium text-gray-700 hover:text-black">Beranda</a>
                 <a href="proker.php" class="text-sm font-medium text-gray-700 hover:text-black">Program Kerja</a>
-                <a href="#" class="text-sm font-medium text-gray-700 hover:text-black">Lokasi Tanam</a>
-                <a href="#" class="text-sm font-medium text-gray-700 hover:text-black">Donasi</a>
+                <a href="Lokasi.vue" class="text-sm font-medium text-gray-700 hover:text-black">Lokasi Tanam</a>
+                <a href="Donasi.vue" class="text-sm font-medium text-gray-700 hover:text-black">Donasi</a>
                 <a href="aboutus.php" class="text-sm font-medium text-gray-700 hover:text-black">Tentang Kami</a>
             </div>
 

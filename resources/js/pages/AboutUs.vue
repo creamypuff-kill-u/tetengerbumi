@@ -1,5 +1,5 @@
 <template>
-<div class="relative">
+<div class="relative bg-[#ffffff]">
     <!-- Navbar -->
         <nav class="fixed top-6 left-1/2 transform -translate-x-1/2 w-[1220px] h-[80px] rounded-[57px] bg-white flex items-center justify-between px-6 shadow-md z-50">
         <!-- Kiri: Logo  -->
@@ -7,35 +7,35 @@
                 <img src="images/tb2.png" alt="Logo" class="h-[42px] w-[134px]" />
             </div>
             <div class="flex items-center space-x-6">
-                <a href="/pages/home" class="text-sm font-medium text-gray-700 hover:text-black">Beranda</a>
-                <a href="proker.php" class="text-sm font-medium text-gray-700 hover:text-black">Program Kerja</a>
-                <a href="#" class="text-sm font-medium text-gray-700 hover:text-black">Lokasi Tanam</a>
-                <a href="#" class="text-sm font-medium text-gray-700 hover:text-black">Donasi</a>
-                <a href="aboutus.php" class="text-sm font-medium text-gray-700 hover:text-black">Tentang Kami</a>
+                <a href="/landingpage" class="text-sm font-medium text-gray-700 hover:text-black">Beranda</a>
+                <a href="/proker" class="text-sm font-medium text-gray-700 hover:text-black">Program Kerja</a>
+                <a href="/lokasi" class="text-sm font-medium text-gray-700 hover:text-black">Lokasi Tanam</a>
+                <a href="/donasi" class="text-sm font-medium text-gray-700 hover:text-black">Donasi</a>
+                <a href="/aboutus" class="text-sm font-medium text-gray-700 hover:text-black">Tentang Kami</a>
             </div>
 
             <!-- Kanan -->
             <div class="flex">
-                <a class="text-white bg-[#84CC16] hover:bg-green-500 rounded-[30px] text-sm px-5 py-2 text-center font-semibold transition-all duration-300" href="#">
+                <a class="text-white bg-[#84CC16] hover:bg-[#5D8736] rounded-[30px] text-sm px-5 py-2 text-center font-semibold transition-all duration-300" href="#">
                     Masuk / Daftar
                 </a>
             </div>
         </nav>
 
-    <section class="relative w-full bg-Background-Body px-6 lg:px-24 pt-40 pb-6">
+    <section class="relative w-full">
         <!-- Background Image -->
-        <div class="absolute inset-0 -z-10">
-            <img src="/images/image5.png" class="w-full object-cover blur-sm" />
-            <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-white"></div>
-        </div>
+    <div class="w-full px-24 pt-40 relative bg-Background-Body inline-flex flex-col justify-start items-center gap-14">
+    <img class="w-full h-[994px] left-0 top-0 absolute" src="/images/image5.png" />
+    <div class="w-full h-[994px] left-0 top-0 absolute bg-gradient-to-b from-black/30 to-white"></div>
 
         <!-- Judul Halaman -->
         <h1 class="absolute top-40 left-1/2 -translate-x-1/2 text-white text-4xl md:text-7xl font-bold leading-tight text-center z-10">
             Tentang Kami
         </h1>
+    </div>
 
         <!-- Konten Card -->
-        <div class="relative max-w-screen-xl mx-auto bg-white rounded-[60px] shadow-xl p-10 md:p-20 mt-60">
+        <div class="relative max-w-screen-xl mx-auto bg-white rounded-[60px] shadow-xl p-10 md:p-20 mb-4 mt-60">
             <!-- Cerita Kami -->
             <div class="flex flex-col lg:flex-row gap-10 mb-24">
                 <div class="flex-1 space-y-6">
@@ -183,10 +183,16 @@
                         </div>
                     </div>
                     <div class="self-stretch justify-start text-white text-xs font-semibold leading-normal tracking-tight">Preserving nature for future generations through innovative conservation finance.</div>
-                    <div class="inline-flex justify-start items-center gap-2.5">
-                        <div class="w-7 h-7 relative bg-zinc-500 rounded-[200px]"></div>
-                        <div class="w-7 h-7 relative bg-zinc-500 rounded-[200px]"></div>
-                        <div class="w-7 h-7 relative bg-zinc-500 rounded-[200px]"></div>
+                    <div class="inline-flex justify-center items-center gap-2.5">
+                        <div class="w-7 h-7 flex items-center justify-center bg-[#84CC16] rounded-full">
+                            <img src="/images/instagram.svg" alt="Instagram" class="w-4 h-4" />
+                        </div>
+                        <div class="w-7 h-7 flex items-center justify-center bg-[#84CC16] rounded-full">
+                            <img src="/images/youtube.svg" alt="Instagram" class="w-4 h-4" />
+                        </div>
+                        <div class="w-7 h-7 flex items-center justify-center bg-[#84CC16] rounded-full">
+                            <img src="/images/facebook.svg" alt="Instagram" class="w-4 h-4" />
+                        </div>
                     </div>
                 </div>
                 <div class="w-[3px] h-40 bg-Colors-White-50%/50 rounded-[20px]"></div>
@@ -203,17 +209,17 @@
                     <div class="w-72 inline-flex flex-col justify-start items-start gap-2.5">
                         <div class="self-stretch justify-start text-white text-lg font-reguler leading-7">Contact</div>
                         <div class="self-stretch flex flex-col justify-start items-start gap-2.5">
-                            <div class="inline-flex justify-start items-center gap-2.5">
-                                <div class="w-7 h-7 relative bg-zinc-500 rounded-[200px]"></div>
-                                <div class="justify-start text-white text-sm font-reguler leading-tight">+62 821 1101</div>
+                            <div class="inline-flex justify-start items-center gap-2">
+                                <div class="w-4 h-4 relative rounded-[200px]"><img src="/images/call.svg" alt="Contact" class="w-4 h-4" /></div>
+                                <div class="justify-start text-white text-sm font-reguler leading-tight">+62 822-4555-3609</div>
                             </div>
-                            <div class="inline-flex justify-start items-center gap-2.5">
-                                <div class="w-7 h-7 relative bg-zinc-500 rounded-[200px]"></div>
-                                <div class="justify-start text-white text-sm font-reguler leading-tight">bumi@tetenger.com</div>
+                            <div class="inline-flex justify-start items-center gap-2">
+                                <div class="w-4 h-4 relative rounded-[200px]"><img src="/images/sms.svg" alt="Email" class="w-4 h-4" /></div>
+                                <div class="justify-start text-white text-sm font-reguler leading-tight">tetengerbumi@gmail.com</div>
                             </div>
-                            <div class="self-stretch inline-flex justify-start items-start gap-2.5">
-                                <div class="w-7 h-7 relative bg-zinc-500 rounded-[200px]"></div>
-                                <div class="flex-1 justify-start text-white text-sm font-reguler leading-tight">Universitas Brawijaya, Jl. Veteran No.25, Kota Malang, Jawa Timur</div>
+                            <div class="self-stretch inline-flex justify-start items-start gap-2">
+                                <div class="w-4 h-4 relative rounded-[200px]"><img src="/images/location.svg" alt="Adress" class="w-4 h-4" /></div>
+                                <div class="flex-1 justify-start text-white text-sm font-reguler leading-tight">Universitas Brawijaya<br> Jl. Veteran No.25, Kota Malang, Jawa Timur</div>
                             </div>
                         </div>
                     </div>
@@ -221,16 +227,16 @@
             </div>
             <div class="self-stretch h-0 outline outline-1 outline-offset-[-0.50px] outline-white/30"></div>
             <div class="self-stretch flex flex-col justify-start items-center gap-2.5">
-                <div class="justify-start text-white text-lg font-medium leading-7">© 2025 Tetenger Bumi. All rights reserved.</div>
+                <div class="justify-start text-white text-lg font-medium leading-7">© 2025 Tetenger Bumi - Kelompok 5 Capstone Project</div>
                 <div class="inline-flex justify-start items-start">
                     <div data-left-icon="false" data-right-icon="false" data-selected="false" data-state="Selected" data-text="true" class="px-4 py-3 rounded-3xl inline-flex flex-col justify-center items-center gap-0.5">
                         <div class="inline-flex justify-center items-end gap-1.5">
-                            <div class="justify-start text-white text-sm font-bold leading-tight">Kebijakan Privasi</div>
+                            <div class="justify-start text-white text-sm font-reguler leading-tight">Kebijakan Privasi</div>
                         </div>
                     </div>
                     <div data-left-icon="false" data-right-icon="false" data-selected="false" data-state="Selected" data-text="true" class="px-4 py-3 rounded-3xl inline-flex flex-col justify-center items-center gap-0.5">
                         <div class="inline-flex justify-center items-end gap-1.5">
-                            <div class="justify-start text-white text-sm font-bold leading-tight">Syarat dan Ketentuan</div>
+                            <div class="justify-start text-white text-sm font-reguler leading-tight">Syarat dan Ketentuan</div>
                         </div>
                     </div>
                 </div>
